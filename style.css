@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Bohemian Soul;
+    src: url(fonts/Bohemian\ Soul.otf);
+}
+
+@font-face {
+    font-family: Warung Kopi;
+    src: url(fonts/Warung\ Kopi.otf);
+}
+
+@font-face {
+    font-family: Lime Days;
+    src: url(fonts/Lime\ Days.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7ECDE;
+}
+
+/*header*/
+.header {
+    width: 100%;
+    min-height: 80px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #F7ECDE;
+    position: fixed;
+    top: 0;
+    transition: 0.2s;
+    background-color:rgb(235, 219, 190);
+}
+
+.header ul li {
+    display: inline-block;
+    font-size: 40px;
+    transition: 0.2s;
+    
+}
+
+.header img {
+    cursor: pointer;
+    margin-left: -50px;
+    transition: 1s;
+}
+
+.header a {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.Nav_link {
+    list-style: none;
+    transition: 0.2s;
+}
+
+.Nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: 0.2s;
+}
+
+.Nav_link li a {
+    transition: all 0.8s ease all;
+    color: #826F66;
+    font-size: 30px;
+    font-family: Lime Days;
+}
+
+.Nav_link li a:hover {
+    color: #3A3845
+}
+
+/*cover*/
+.cover img {
+    width: 100%;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 143px;
+}
+
+/* feedback forms */
+.feedback {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.feedback h1 {
+    margin-bottom: 2px;
+    font-family: Lime Days;
+    font-weight: lighter;
+}
+
+.feedback p {
+    font-family: Warung Kopi;
+    font-size: 20px;
+}
+
+.feedback form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.feedback form label {
+    font-family: Warung Kopi;
+}
+
+.feedback form #name {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.feedback form #feedback {
+    font-family: Arial;
+    text-align: center;
+}
+
+.feedback a {
+    text-decoration: none;
+    border : 2px solid #3A3845;
+    border-radius: 10px;
+    background-color: #3A3845;
+    color: #F7ECDE;
+    padding: 3px 7px;
+}
+
+.feedback a:hover {
+    border-color: #826F66;
+    background-color: #826F66;
+    color: #E9DAC1;
+    transition: 0.2s;
+}
+
+/*contacts n credits*/
+.concred {
+    width: 100%;
+    min-height: 200px;
+    margin: auto;
+    background-color:rgb(198, 185, 160);
+}
+
+.concred h2 {
+    font-family: Bohemian Soul;
+    font-weight: lighter;
+}
+
+.concred p {
+    font-family: Warung Kopi;
+}
+
+.contacts {
+    padding-top: 30px;
+    float: left;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.contacts h2 {
+    margin-bottom: 5px;
+}
+
+.credits {
+    padding-top: 45px;
+    float: right;
+    text-align: center;
+    margin-right: 200px;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    margin: auto;
+}
+
+.footer h4 {
+    text-align: center;
+    background-color: #E9DAC1;
+    padding: 10px;
+    font-family: Warung Kopi;
+}
+
