@@ -81,99 +81,66 @@ body {
     color: #3A3845
 }
 
-/*member's profile*/
-.member {
+/*cover*/
+.cover img {
     width: 100%;
-    margin-top: 160px;
-    text-align: center;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 143px;
 }
 
-.member h1 {
-    font-family: Bohemian Soul;
+/* feedback forms */
+.feedback {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.feedback h1 {
+    margin-bottom: 2px;
+    font-family: Lime Days;
     font-weight: lighter;
+}
+
+.feedback p {
+    font-family: Warung Kopi;
+    font-size: 20px;
+}
+
+.feedback form {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.member p {
+.feedback form label {
     font-family: Warung Kopi;
-    margin-bottom: 5px;
 }
 
-.bima {
-    background-color: #E9DAC1;
-    border-radius: 10%;
+.feedback form #name {
+    margin-bottom: 10px;
     text-align: center;
-    display: inline-block;
-    width: 300px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    width: 200px;
 }
 
-.mukaBima {
-    border-radius: 50%;
-    margin-top: 20px;
-}
-
-.ramjes {
-    background-color: #E9DAC1;
-    border-radius: 10%;
+.feedback form #feedback {
+    font-family: Arial;
     text-align: center;
-    display: inline-block;
-    width: 300px;
 }
 
-.mukaRamjes {
-    border-radius: 50%;
-    margin-top: 20px;
+.feedback a {
+    text-decoration: none;
+    border : 2px solid #3A3845;
+    border-radius: 10px;
+    background-color: #3A3845;
+    color: #F7ECDE;
+    padding: 3px 7px;
 }
 
-.wahyuni {
-    background-color: #E9DAC1;
-    border-radius: 10%;
-    text-align: center;
-    display: inline-block;
-    width: 300px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-}
-
-.mukaWahyuni {
-    border-radius: 50%;
-    margin-top: 20px;
-}
-
-.adel {
-    background-color: #E9DAC1;
-    border-radius: 10%;
-    text-align: center;
-    display: inline-block;
-    width: 300px;
-}
-
-.mukaAdel {
-    border-radius: 50%;
-    margin-top: 20px;
-}
-
-.bunga {
-    background-color: #E9DAC1;
-    border-radius: 10%;
-    text-align: center;
-    display: inline-block;
-    width: 300px;
-}
-
-.mukaBunga {
-    border-radius: 50%;
-    margin-top: 20px;
-}
-
-.instagram {
-    height: 20px;
-    width: 20px;
-    margin-bottom: 15px;
-    margin-top: 10px;
+.feedback a:hover {
+    border-color: #826F66;
+    background-color: #826F66;
+    color: #E9DAC1;
+    transition: 0.2s;
 }
 
 /*contacts n credits*/
@@ -181,12 +148,7 @@ body {
     width: 100%;
     min-height: 200px;
     margin: auto;
-    margin-top: 50px;
     background-color:rgb(198, 185, 160);
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 150px;
 }
 
 .concred h2 {
@@ -201,6 +163,8 @@ body {
 .contacts {
     padding-top: 30px;
     float: left;
+    margin-left: 250px;
+    text-align: center;
 }
 
 .contacts h2 {
@@ -210,13 +174,14 @@ body {
 .credits {
     padding-top: 45px;
     float: right;
+    text-align: center;
+    margin-right: 200px;
 }
 
 /*footer*/
 .footer {
     width: 100%;
     margin: auto;
-    position: absolute;
 }
 
 .footer h4 {
@@ -226,3 +191,4 @@ body {
     font-family: Warung Kopi;
     font-weight: lighter;
 }
+
